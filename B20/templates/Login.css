@@ -1,0 +1,170 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1638184984605-af1f05249a56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTN8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80');
+    background-size: cover; /* make the image cover the whole viewport */
+  }
+  #fot {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Height of the footer */
+    background-color:  #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .puc-image {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 2px solid #ccc;
+      transition: all 0.3s ease;
+    }
+    
+    .puc-image:hover {
+      transform: scale(1.1);
+      border: 2px solid #000;
+    }
+h1, h2, h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+#checkbox label {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#checkbox input[type="checkbox"] {
+    display: inline-block;
+    vertical-align: -2px;
+}
+
+#checkbox{
+    display: relative;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    font-weight: 100;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/premium-photo/collage-food-dishes-meat-fish-vegetables_187166-47028.jpg?w=1380');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 100px;    ;
+  }
+  
+  form {
+    max-width: 750px;
+    height: 800px;
+    background-color: rgb(85, 83, 83);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.2px solid #5b584e;
+    width: 100%;
+    margin: auto;
+  }
+
+.logo{
+    width: 500px;
+    align-self: auto;
+    /* border-radius: 50%; */
+    margin-bottom: 20px;
+    /* border: 0.5px solid #000000; */
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #fffefe;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 80%;
+}
+
+.forgot_password{
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    display: block;
+    width: 80%;
+    padding: 12px 20px;
+    border: 0.5px solid #CCC;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color:  #4f4f4d;
+    color: #FFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 0.5px solid #000000;
+}
+
+input[type="submit"]:hover {
+    background-color: #000000;
+    color: #FFF;
+}
+  
+  @media screen and (max-device-width: 480px) {
+    form {
+      padding: 30px;
+    }
+    label,
+    input[type="email"],
+    input[type="password"] {
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-device-height: 480px) {
+    form {
+      padding: 30px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      margin: 100px;
+    }    
+    label,
+    input[type="email"],
+    input[type="password"] {
+      font-size: 14px;
+    }
+  }
